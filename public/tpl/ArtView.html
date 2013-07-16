@@ -4,17 +4,17 @@
 
         <fieldset>
 
-            <legend>Wine Details</legend>
+            <legend>Art Details</legend>
             <br/>
 
             <div class="row">
                 <div class="span8">
 
                     <div class="control-group">
-                        <label for="wineId" class="control-label">Id:</label>
+                        <label for="artId" class="control-label">Id:</label>
 
                         <div class="controls">
-                            <input id="wineId" name="id" type="text" value="<%= _id === null ? '' : _id %>"
+                            <input id="artId" name="id" type="text" value="<%= _id === null ? '' : _id %>"
                                    disabled/>
                         </div>
                     </div>
@@ -29,7 +29,7 @@
                     </div>
 
                     <div class="control-group">
-                        <label for="grapes" class="control-label">Grapes:</label>
+                        <label for="grapes" class="control-label">Style:</label>
 
                         <div class="controls">
                             <input type="text" id="grapes" name="grapes" value="<%= grapes %>"/>
@@ -108,7 +108,7 @@
 <div class="row-fluid status-bar">
     <div class="span12">
         <div class="alert alert-success" style="display: none">
-            <b>Success!</b> Wine saved successfully
+            <b>Success!</b> Art saved successfully
         </div>
     </div>
 </div>
