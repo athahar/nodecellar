@@ -1,4 +1,4 @@
-This is a node cellar application 
+This is a Art Store application 
 Client side - Backbone, twitter bootstrap
 Server side - node, express
 DB - MongoDB

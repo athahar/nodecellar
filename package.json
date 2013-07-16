@@ -1,6 +1,6 @@
 {
-    "name": "wine-cellar",
-    "description": "Wine Cellar Application",
+    "name": "node-cellar",
+    "description": "Art Store Application",
     "version": "0.0.1",
     "private": true,
     "dependencies": {

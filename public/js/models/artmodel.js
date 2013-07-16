@@ -1,6 +1,6 @@
-window.Wine = Backbone.Model.extend({
+window.Art = Backbone.Model.extend({
 
-    urlRoot: "http://127.0.0.1:3000/wines",
+    urlRoot: "http://127.0.0.1:3000/arts",
 
     idAttribute: "_id",
 
@@ -53,10 +53,10 @@ window.Wine = Backbone.Model.extend({
     }
 });
 
-window.WineCollection = Backbone.Collection.extend({
+window.ArtCollection = Backbone.Collection.extend({
 
-    model: Wine,
+    model: Art,
 
-    url: "http://127.0.0.1:3000/wines"
+    url: "http://127.0.0.1:3000/arts"
 
 });
