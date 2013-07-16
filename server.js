@@ -1,5 +1,5 @@
 var express = require('express'),
-	wines = require('./routes/wines'),
+	arts = require('./routes/arts'),
 	fs = require('fs'),
 	sys = require('sys');
 
@@ -12,11 +12,11 @@ app.configure(function(){
 });
 
 
-app.get('/wines', wines.findAll);
-app.get('/wines/:id', wines.findById);
-app.post('/wines', wines.addWine);
-app.put('/wines/:id', wines.updateWine);
-app.delete('/wines/:id',wines.deleteWine);
+app.get('/arts', arts.findAll);
+app.get('/arts/:id', arts.findById);
+app.post('/arts', arts.addArt);
+app.put('/arts/:id', arts.updateArt);
+app.delete('/arts/:id',arts.deleteArt);
 
 
 app.listen(3000);
